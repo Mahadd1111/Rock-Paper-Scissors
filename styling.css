@@ -1,0 +1,138 @@
+.top{
+    display: flex;
+    background-color: rgb(32, 6, 68);
+    color:white;
+    padding:5px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.selection{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(225, 216, 216);
+}
+
+.playerchoice{
+    padding-left: 30px;
+    width:50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    height:40px;
+    width:200px;
+}
+
+.btn:hover{
+    background-color: darkred;
+    transform:scale(1.1);
+    cursor:pointer;
+    box-shadow: 0 0 20px 1px;
+}
+
+.result{
+    display:flex;
+    font-family: sans-serif;
+    background-color: rgb(32, 6, 68);
+    height:200px;
+    color:white;
+}
+
+.result .ans{
+    padding-left: 30px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.result .score{
+    width:50%;
+}
+
+.result .ans h1{
+    word-wrap:break-word ;
+    
+}
+
+.computerchoice{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.displayc{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    font-weight: bold;
+    border-radius: 20px;
+    height:150px;
+    background-color: rgb(14, 30, 82);
+    color:white;
+    border:2px solid orange;
+    font-family: sans-serif;
+}
+
+.inner{
+    width:100%;
+    height:250px;
+    display: flex;
+    align-items: center;
+}
+
+.resultdisplay{
+    display:flex;
+    font-weight: bold;
+    width:300px;
+    height:100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 57, 57);
+    color:white;
+}
+
+.score{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.playagainbtn{
+    background-color: rgb(123, 123, 194);
+    color:white;
+    width:300px;
+    height:100px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.playagainbtn:hover{
+    background-color: rgb(29, 147, 174);
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.output{
+    display: flex;
+    font-weight: bold;
+}
+
+.currentscore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    font-size: large;
+}

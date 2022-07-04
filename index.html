@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="code.js"></script>
+    <link rel="stylesheet" href="styling.css">
+    <script src="code.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="top"><h1>ROCK PAPER SCISSORS GAME!</h1></div>
+        <div class="selection">
+            <div class="playerchoice">
+                <h2>Select Your Choice: </h2>
+                <button class="btn rock" id="btid">ROCK</button>
+                <button class="btn paper" id="btid">PAPER</button>
+                <button class="btn scissors" id="btid">SCISSORS</button>
+            </div>
+            <div class="computerchoice">
+                <h2>Computer Chose: </h2>
+                <div class="inner">
+
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <div class="ans">
+                <h2>Result of the Current Game is: </h2>
+            </div>
+            <div class="score">
+                <div class="output">
+                    <h2>Your Points are: </h2>
+                    <div class="currentscore"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
